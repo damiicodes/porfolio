@@ -16,6 +16,43 @@
             </header>
         </section>
 
+        <section>
+            <p>Please fill in this form to contact me!</p>
+
+
+            <form action="/contactme" method="post">
+                <p>
+                    <label for="username">Please input Username</label>
+                    <input type="username" name="username" id="username" placeholder="username" required>
+                </p>
+                <br>
+                <br>
+                <p>
+                    <label for="email">Please input your Email</label>
+                    <input type="email" name="email" id="email" placeholder="email" required>
+                </p>
+
+                <br>
+                <p>
+                    <label for="Contact Reason">Reason for Contacting Me:</label>
+                    <select name="Reason" id="Contact Reason">
+                        <option value="To Chat">Let's Chat</option>
+                        <option value="To Connect">Let's Connect</option>
+                        <option value="Freelance Work" selected>To book you for a job</option>
+                </p>
+                </select>
+                <br>
+
+                <p>
+                    <label for="Comments">Any Extra Comments?</label>
+                    <textarea name="Extra Comments" id="Comments" cols="30" rows="10"></textarea>
+                </p>
+
+
+            </form>
+
+        </section>
+
     </main>
 </body>
 
